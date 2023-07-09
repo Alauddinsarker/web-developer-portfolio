@@ -9,6 +9,7 @@ body {
   background: #fd6e0a;
   border: none;
   padding: 18px 35px;
+  color: #fff;
 }
 .section-heading {
   color: #181818;
@@ -18,9 +19,10 @@ body {
 }
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, bottom left;
 }
 /* Navigation CSS */
 nav {
